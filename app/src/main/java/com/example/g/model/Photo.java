@@ -1,4 +1,4 @@
-package a.first.model;
+package com.example.g.model;
 
 public class Photo {
 
