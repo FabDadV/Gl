@@ -32,6 +32,8 @@ public class PhotoGallery extends AppCompatActivity {
         recyclerView = findViewById(R.id.rv);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 3));
 
+
+
         FlickrApi flickrApi = ServiceAPI.getRetrofit().create(FlickrApi.class);
         Call<PhotosResponse> call;
         call = flickrApi.getRecent();
