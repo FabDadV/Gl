@@ -1,5 +1,7 @@
 package com.example.g.model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Photo {
 
     public String id;

@@ -1,5 +1,8 @@
 package com.example.g.api;
 
+import androidx.room.Database;
+import androidx.room.Room;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import retrofit2.Retrofit;
